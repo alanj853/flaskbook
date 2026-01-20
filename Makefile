@@ -10,7 +10,7 @@ prod:
 	waitress-serve --call 'app:create_app'
 
 init-db:
-	flask --app app init-db
+	flask db init
 
 install_deps:
 	pip install -r requirements.txt
