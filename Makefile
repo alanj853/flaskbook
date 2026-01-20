@@ -37,7 +37,7 @@ secret:
 	python -c 'import secrets; print(secrets.token_hex())'
 
 clean:
-	rm -rf htmlcov .coverage __pycache__ app/__pycache__ test/__pycache__ .pytest_cache instance
+	rm -rf htmlcov .coverage __pycache__ app/__pycache__ test/__pycache__ .pytest_cache instance app.db
 
 one_time_setup: clean install_deps init-db
 
