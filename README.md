@@ -5,6 +5,9 @@
 4. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
 5. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
 
+## Currently on
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
+Profile Editior
 
 ## create migration scripts
 flask db migrate -m "some message"
