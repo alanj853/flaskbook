@@ -4,10 +4,10 @@
 3. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
 4. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
 5. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
+6. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
-Profile Editior
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
 
 ## create migration scripts
 flask db migrate -m "some message"
