@@ -9,6 +9,7 @@
 
 ## Currently on
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
+"Obtaining the Posts from Followed Users"
 
 ## create migration scripts
 flask db migrate -m "some message"
