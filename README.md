@@ -6,10 +6,10 @@
 5. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
 6. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
 7. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
+8. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
-"Obtaining the Posts from Followed Users"
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
 
 ## create migration scripts
 flask db migrate -m "some message"
