@@ -44,7 +44,10 @@ def index():
         db.session.commit()
         flash('Your post is now live!')
         return redirect(url_for('index'))
-    posts = db.session.scalars(current_user.following_posts()).all()
+    if hasattr(current_user, 'following_posts'): ## I added this check to prevent a crash when no user is logged in
+        posts = db.session.scalars(current_user.following_posts()).all()
+    else:
+        posts = []
     return render_template("index.html", title='Home Page', form=form, posts=posts)
 
 @app.route('/edit_profile', methods=['GET', 'POST'])
