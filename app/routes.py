@@ -28,6 +28,13 @@ def login():
         return redirect(next_page)
     return render_template('login.html', title='Sign In', form=form)
 
+@app.route('/explore')
+@login_required
+def explore():
+    query = sa.select(Post).order_by(Post.timestamp.desc())
+    posts = db.session.scalars(query).all()
+    return render_template('index.html', title='Explore', posts=posts) ## deliberately not including the "form" variable here, so the form won't be rendered on the explore page
+
 @app.route('/logout')
 def logout():
     logout_user()

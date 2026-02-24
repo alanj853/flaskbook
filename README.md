@@ -10,7 +10,7 @@
 
 ## Currently on
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
-"Making It Easier to Find Users to Follow"
+"Pagination of Blog Posts"
 
 ## create migration scripts
 flask db migrate -m "some message"
