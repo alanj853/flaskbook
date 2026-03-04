@@ -7,10 +7,10 @@
 6. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
 7. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
 8. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
+9. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
-"Pagination of Blog Posts"
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
 
 ## create migration scripts
 flask db migrate -m "some message"
