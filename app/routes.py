@@ -52,7 +52,10 @@ def index():
         flash('Your post is now live!')
         return redirect(url_for('index'))
     if hasattr(current_user, 'following_posts'): ## I added this check to prevent a crash when no user is logged in
-        posts = db.session.scalars(current_user.following_posts()).all()
+        page = request.args.get('page', 1, type=int)
+        posts = db.paginate(current_user.following_posts(), page=page,
+                            per_page=app.config['POSTS_PER_PAGE'], error_out=False)
+        posts=posts.items
     else:
         posts = []
     return render_template("index.html", title='Home Page', form=form, posts=posts)
