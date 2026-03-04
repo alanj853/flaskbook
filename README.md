@@ -11,6 +11,7 @@
 
 ## Currently on
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
+"Flask-Mail Usage"
 
 ## create migration scripts
 flask db migrate -m "some message"
