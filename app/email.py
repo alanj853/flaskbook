@@ -6,6 +6,9 @@ from threading import Thread
 
 def send_async_email(app, msg):
     with app.app_context():
+        # uncomment for debugging
+        # print("Here is the email")
+        # print(msg)
         mail.send(msg)
 
 def send_email(subject, sender, recipients, text_body, html_body):
