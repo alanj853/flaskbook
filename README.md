@@ -11,7 +11,7 @@
 
 ## Currently on
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
-"Resetting a User Password"
+Section Completed, just test it out!
 
 
 ## Email Test
