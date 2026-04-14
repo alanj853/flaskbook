@@ -13,6 +13,9 @@
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
 "Flask-Mail Usage"
 
+
+## Email Test
+TODO - remove later
 (.venv) C:\dev\flaskbook>set MAIL_SERVER=smtp.freesmtpservers.com
 
 (.venv) C:\dev\flaskbook>set MAIL_PORT=25
