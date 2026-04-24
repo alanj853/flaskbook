@@ -10,9 +10,10 @@
 9. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
 10. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
 11. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xi-facelift
+12. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xii-dates-and-times
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xii-dates-and-times
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n
 
 
 ## Email Test
