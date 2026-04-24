@@ -1,19 +1,20 @@
 ## Sections Completed
-1. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
-2. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
-3. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
-4. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
-5. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
-6. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
-7. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
-8. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
-9. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
+1.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+2.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
+3.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
+4.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
+5.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
+6.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vi-profile-page-and-avatars
+7.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
+8.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
+9.  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
 10. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
 11. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xi-facelift
 12. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xii-dates-and-times
+13. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiv-ajax
 
 
 ## Email Test
