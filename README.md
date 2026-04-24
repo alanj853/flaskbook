@@ -9,9 +9,10 @@
 8. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers
 9. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination
 10. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-x-email-support
+11. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xi-facelift
 
 ## Currently on
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xi-facelift
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xii-dates-and-times
 
 
 ## Email Test
