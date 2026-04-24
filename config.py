@@ -16,3 +16,6 @@ class Config:
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     POSTS_PER_PAGE = 25
+
+    ## translations supported by the application
+    LANGUAGES = ['en', 'es']

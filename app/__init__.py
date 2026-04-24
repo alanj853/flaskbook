@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_login import LoginManager
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
@@ -7,6 +7,10 @@ from flask_moment import Moment
 import logging
 from logging.handlers import SMTPHandler, RotatingFileHandler
 from flask_mail import Mail
+from flask_babel import Babel
+
+def get_locale():
+    return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 import os
 
@@ -22,6 +26,8 @@ login = LoginManager(app)
 
 ## "login" is the view. You could also pass this to url_for
 login.login_view = 'login'
+login.login_message = _l('Please log in to access this page.')
+babel = Babel(app, locale_selector=get_locale)
 
 if not app.debug:
     ## Email Logging
