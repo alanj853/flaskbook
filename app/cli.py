@@ -18,8 +18,18 @@ def init(lang):
     if os.system(
             'pybabel init -i messages.pot -d app/translations -l ' + lang):
         raise RuntimeError('init command failed')
-    os.remove('messages.pot')
+    # os.remove('messages.pot')
 
+@translate.command()
+def init_all_languages():
+    """Initialize all languages."""
+    if os.system('pybabel extract -F babel.cfg -k _l -o messages.pot .'):
+        raise RuntimeError('extract command failed')
+    for lang in app.config['LANGUAGES']:
+        if os.system(
+                'pybabel init -i messages.pot -d app/translations -l ' + lang):
+            raise RuntimeError('init command failed')
+    # os.remove('messages.pot')
 
 @translate.command()
 def update():
@@ -28,7 +38,7 @@ def update():
         raise RuntimeError('extract command failed')
     if os.system('pybabel update -i messages.pot -d app/translations'):
         raise RuntimeError('update command failed')
-    os.remove('messages.pot')
+    # os.remove('messages.pot')
 
 
 @translate.command()
